@@ -1,0 +1,127 @@
+/*
+Theme Name: Theme site ludus1B
+theme URI: Ludus1B.com
+Author: Lucas Aulen
+Description: Theme css site web ludus1B
+Version: 1.0
+License: Ludus1B
+Licence URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+
+/*Taille absolue en px, cm, mm, (déconseillé car le taille peut trop petite pour certains utilisateurs)
+
+Taille relative en pourcentage, em ou ex, technique plus souple s'adapte aux référence de l'utilisateurs
+
+Valeur relative :
+
+xx-small
+x-small
+small
+medium
+large
+x-large
+xx-large
+
+*/
+
+/* Général */
+
+body{
+	/*background-color: black;
+	color: white;*/
+	background-image: url("images/.jpg");
+	/*background-repeat: repeat-y;*/
+	background-repeat: repeat;
+	/*background-attachment: scroll;*/
+	/*background-position: 30px 50px;*/
+	background-position: top left;
+	background: url("images/.jpg")./*fixed no-repeat*/ top left, url("images/.jpg");
+	}
+
+.CV{
+	font-size: 50px;
+	text-align:center;
+	margin: 5%;
+	Border: 3px inset;
+	border-radius: 10px 10px 10px 10px;
+	background-color: e6e6e6;
+	box-shadow: 3px 3px 3px 3px;
+	width: 75%;
+}
+	
+.imageflottante
+{
+	float: left;
+	
+}
+
+/*li a:visited{
+	color:#ff0066;
+}*/
+
+/*li a:focus{
+	background:#FFCC66;
+}*/
+
+.clear
+{
+	clear: both;
+}
+
+@font-face {
+	font-family: "AlexBrush";
+	src:url('font/AlexBrush-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Dovahkiin";
+	src:url('font/Dovahkiin/Dovahkiin.otf');
+}
+
+.Center{
+	text-align:center;
+}
+
+.Titre{/*appel de class Titre avec le. */
+	color:#e91e63;
+	font-size: 40px;
+	font-family:'AlexBrush';
+	text-align:center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+	border: 3px inset;
+	/*border-radius: 10px;*/
+	border-radius: 10px 15px 20px 5px;
+	border-color: black;
+	background-color: 00ffff;
+	box-shadow: 12px 12px 0px #00ff00;
+	text-shadow: 2px 2px 4px gray;
+	width: 50%;
+	text-align: center;
+}
+
+#Titre{/*appel de l'id Titre avec le #*/
+	color:#pink;
+	font-size:1em;
+	font-size:50%;
+	font-family:'';
+
+}
+
+.fond{
+	background-color: rgba(0,127,254,1);
+	opacity: 0.6;
+	
+}
+
+#dovah{
+	font-family:'Dovahkiin'
+}
+
+*{
+	margin:0px;
+	padding:1px;
+}
+
